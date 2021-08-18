@@ -1,0 +1,59 @@
+.App {
+margin: auto;
+display: flex;
+flex-direction: column;
+text-align: center;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: scroll;
+height: 100%;
+position: absolute;
+left: 0;
+width: 100%;
+overflow: scroll;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  color: #FF4C29;
+  font-size: 2.5rem;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+}
+.btn{
+  cursor: pointer;
+background: #E5E7EB;
+border-radius: 0.5rem;
+padding: 0.5rem 3rem;
+border: 3px solid #FFAC8E;
+margin: 0.5rem 1.3rem;
+}
+.musicName{
+  list-style: none;
+  padding: 0.5rem;
+  border: 4px solid #FFAC8E;
+  width: 25%;
+  margin: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+p{
+font-size: 1.5rem;
+color: white;
+margin-top: -21px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+}
+.App::-webkit-scrollbar {
+    display: none;
+  }
